@@ -1,0 +1,128 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #4b4fbb;
+    color: #e4ecec;
+}
+.btn:hover{
+   cursor: pointer;
+   color: rgb(244, 250, 255);
+   background-color: #596b9b;
+}
+
+/* <---- Navigation bar ----> */
+.navbar-container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-container .list{
+    display: flex;
+}
+
+.navbar-container .list-item{
+    margin: 10px 20px 0 20px;
+    list-style: none;    
+}
+
+.navbar-container .list-item:first-child{
+    margin: 10px 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.navbar-container .list-item:hover{
+   cursor: pointer;
+   color: #36519c;
+}
+
+/* <---- Banner ----> */
+.banner-container{
+    overflow: hidden;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.banner-container .heading-text{
+    margin-top: 60px;
+    width: 25vw;
+    font-size: 70px;
+    color: #21042a;
+
+}
+.banner-container .heading-text span{
+    margin-left: 0;
+    color: #723f82;
+}
+
+.banner-container .description{
+    width: 50vw;
+    font-size: 2rem;
+    color: #8796c0;
+    margin: 10% 0 2% 10%;
+}
+.banner-container .image-section{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+}
+
+.image-section img{
+    width: 50%;
+    margin-left: 1%;
+}
+
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    .navbar-container{
+        width: 100%;
+    }
+    .btn{
+       display: none;
+    }
+    .navbar-container .list{
+        flex-wrap: wrap;
+    }
+    .banner-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .banner-container .heading-text {
+      margin-top: 20px;
+      width: 80vw;
+      font-size: 50px;
+    }
+    
+    .banner-container .description {
+      width: 80vw;
+      font-size: 1.5rem;
+    }
+    
+    .banner-container .image-section {
+      width: 50%;
+    }
+    
+    .image-section img {
+      width: 50%;
+    }
+  }
+
