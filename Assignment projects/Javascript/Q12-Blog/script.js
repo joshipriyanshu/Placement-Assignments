@@ -61,7 +61,7 @@ function handleAddBlog(e) {
         <p>${data.body}</p>
         <button class="delete-btn" data-id="${data.id}">Delete</button>
       `;
-            blogList.prepend(li);
+         blogList.prepend(li);
 
             const deleteButton = li.querySelector('.delete-btn');
             deleteButton.addEventListener('click', handleDelete);
