@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+
+    background-color: rgba(92, 203, 203, 0.633);
+
+}
+.Main-container{
+    
+    height: 60vh;
+    background-color: rgba(52, 223, 245, 0.823);
+
+}
+
+::placeholder{
+
+    color: #101014;
+    text-align: center;
+    font-size: x-large;
+    text-emphasis-color: red;
+}
+
+ #blog-title{ 
+
+    width: 100vh;
+    height: 10vh;
+    border: 2px solid rgb(255, 147, 6);
+    margin: 30px;
+    background-color: rgb(154, 224, 181);
+    color: #000000;
+    border-radius: 20px;
+    margin-left: 20%;
+
+
+}
+
+#blog-body{ 
+
+    width: 100vh;
+    height: 30vh;
+    border: 2px solid rgb(255, 147, 6);
+    margin: 30px;
+    background-color: rgb(71, 211, 146);
+    color: #000000;
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
+li{
+
+    width: 150vh;
+    height: 15vh;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 30px;
+    background-color: rgb(174, 218, 176);
+    color: #000000;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 20px;
+
+}
+
+#submit{
+
+    background-color: #4f5eab;
+    width: 10%;
+    height: 5vh;
+    border-radius: 10px;
+    color: #fffffffb;
+    font-size: x-large;
+}   
+
+#heading{
+
+    text-align: center;
+    font-size: xx-large;
+    color: #ffffff;
+    background-color: #425ad0;    
+}
+
+.delete-btn{
+
+
+    background-color: #b33f3f;
+    width: 5%;
+    height: 3vh;
+    border-radius: 10px;
+    color: #fffffffb;
+    font-size: small;
+    margin-top: 5px;
+
+}
